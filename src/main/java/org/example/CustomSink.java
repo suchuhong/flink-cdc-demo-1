@@ -7,6 +7,8 @@ public class CustomSink extends RichSinkFunction<String> {
     @Override
     public void invoke(String value, Context context) throws Exception {
         System.out.println(">>> " + value);
+//        输出sql
+//        迁移数据
     }
 
     @Override
